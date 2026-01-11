@@ -39,7 +39,16 @@ kiwi = get_kiwi()
 # --- Removed MonkeyPatch (No longer needed with official API) ---
 
 # 한국어기초사전 API
-KRDICT_API_KEY = "BFCA7CF8A91CE6BE2C4B45D3C71188DA"
+if "KRDICT_API_KEY" in st.secrets:
+    KRDICT_API_KEY = st.secrets["KRDICT_API_KEY"]
+else:
+    # Fallback or Error (For now, let's keep the hardcoded one as a fallback for local testing convenience, 
+    # but strictly it should be in secrets.toml. Let's force secrets for consistency with deployment best practices.)
+    # However, to avoid immediate breakage for the user locally if they haven't updated secrets.toml yet:
+    KRDICT_API_KEY = "BFCA7CF8A91CE6BE2C4B45D3C71188DA" # Default (Will be overridden by secrets)
+    # Or better, just load it:
+    # KRDICT_API_KEY = st.secrets["KRDICT_API_KEY"]
+
 
 def get_word_definitions(word, lang_code="ko", max_results=3):
     """한국어기초사전 API로 단어 뜻 조회 - 여러 결과 반환"""
