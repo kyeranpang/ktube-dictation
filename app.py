@@ -195,6 +195,10 @@ def display_dictionary_results(definitions, show_add_button=False, context=""):
 with tab_study:
     st.subheader(t("study_mode"))
     
+    # User Guide Expander
+    with st.expander(t("user_guide_title"), expanded=True):
+        st.markdown(t("user_guide_md"))
+
     with st.form("search_form", clear_on_submit=False):
         col1, col2 = st.columns([4, 1])
         with col1:

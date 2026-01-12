@@ -77,11 +77,27 @@ TRANSLATIONS = {
         "original_text": "원문",
         "user_input": "내 입력",
         "is_correct": "정답 여부",
-        "blank_words": "출제 단어",
-        "wrong_words": "틀린 단어",
         "results_for": "검색 결과",
         "buy_coffee_help": "☕ 개발자에게 커피 한 잔 후원하기 (외부 링크로 연결됩니다)",
-        "feedback_btn": "📢 피드백 보내기"
+        "feedback_btn": "📢 피드백 보내기",
+        "user_guide_title": "📖 사용 가이드 & 팁 (User Guide)",
+        "user_guide_md": """### 👋 K-Tube Dictation에 오신 것을 환영합니다!
+유튜브 영상을 보며 진짜 한국어를 연습해 보세요.
+
+**이 앱의 장점**
+*   **구조 이해하기**: 문장에서 `조사`와 문법 구조를 구분하는 연습에 도움이 됩니다.
+*   **철자 연습**: 한국어 맞춤법은 어렵죠! 여기서 받아쓰기를 하며 자연스럽게 익혀보세요.
+*   **단어 쌓기**: 모르는 단어는 바로 사전에서 찾아보고 저장해서 복습하세요.
+
+**사용 방법:**
+1.  🔍 **검색**: 원하는 영상을 찾아보세요 (예: "한국 드라마", "뉴스").
+2.  🎧 **듣기**: 영상을 잘 듣고 들리는 대로 적어보세요.
+3.  ✅ **확인**: 자막과 내 답을 비교해 보세요.
+4.  📝 **복습**: 유용한 단어는 단어장에 저장하세요.
+
+**💡 팁:**
+*   초보자라면 **쉬움 모드**(빈칸 채우기)부터 시작하세요.
+*   입력을 위해 기기에 **한국어 키보드**가 설치되어 있어야 합니다."""
     },
     "en": {
         "app_title": "K-Tube Dictation 🎧",
@@ -138,11 +154,27 @@ TRANSLATIONS = {
         "original_text": "Original Text",
         "user_input": "User Input",
         "is_correct": "Is Correct",
-        "blank_words": "Blank Words",
-        "wrong_words": "Wrong Words",
         "results_for": "Results for",
         "buy_coffee_help": "☕ Support the developer with a coffee (Opens external link)",
-        "feedback_btn": "📢 Send Feedback"
+        "feedback_btn": "📢 Send Feedback",
+        "user_guide_title": "📖 User Guide & Tips",
+        "user_guide_md": """### 👋 Welcome to K-Tube Dictation!
+Improve your Korean by listening to real YouTube videos.
+
+**Why use this app?**
+*   **Understand Structure**: It helps you distinguish `Particles(조사)` from other words.
+*   **Practice Spelling**: Getting the spelling right is hard! Practice makes perfect here.
+*   **Build Vocabulary**: Found a new word? Check the dictionary and save it to review later.
+
+**How to use:**
+1.  🔍 **Search**: Find a video (e.g. "K-Drama", "News").
+2.  🎧 **Listen**: Listen carefully and type what you hear.
+3.  ✅ **Check**: Compare your answer with the subtitles.
+4.  📝 **Review**: Save any useful words to your Vocabulary list.
+
+**💡 Tips:**
+*   Start with **Easy Mode** (Fill-in-the-blanks) if you are a beginner.
+*   Please install a **Korean keyboard** on your device to type."""
     },
     "ja": {
         "app_title": "K-Tube Dictation 🎧",
