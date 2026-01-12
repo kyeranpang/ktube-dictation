@@ -151,6 +151,9 @@ with st.sidebar:
     st.markdown("---")
     # Buy Me a Coffee Button (Subtle with Tooltip)
     st.link_button("☕ Buy me a coffee", "https://www.buymeacoffee.com/kyeranpang", help=t("buy_coffee_help"), use_container_width=True)
+    
+    # Feedback Button
+    st.link_button(t("feedback_btn"), "https://docs.google.com/forms/d/e/1FAIpQLSelt5J37ezgnnq8n75oh2poGAVt34iJYc2wZypPTSDr69c9Kw/viewform", use_container_width=True)
 
 # 메인 탭 UI (기록 탭 분리: 문장/단어)
 tab_study, tab_sentences, tab_vocabulary = st.tabs([t("study"), "📝 Sentences", "📚 Vocabulary"])

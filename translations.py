@@ -80,7 +80,8 @@ TRANSLATIONS = {
         "blank_words": "출제 단어",
         "wrong_words": "틀린 단어",
         "results_for": "검색 결과",
-        "buy_coffee_help": "☕ 개발자에게 커피 한 잔 후원하기 (외부 링크로 연결됩니다)"
+        "buy_coffee_help": "☕ 개발자에게 커피 한 잔 후원하기 (외부 링크로 연결됩니다)",
+        "feedback_btn": "📢 피드백 보내기"
     },
     "en": {
         "app_title": "K-Tube Dictation 🎧",
@@ -140,7 +141,8 @@ TRANSLATIONS = {
         "blank_words": "Blank Words",
         "wrong_words": "Wrong Words",
         "results_for": "Results for",
-        "buy_coffee_help": "☕ Support the developer with a coffee (Opens external link)"
+        "buy_coffee_help": "☕ Support the developer with a coffee (Opens external link)",
+        "feedback_btn": "📢 Send Feedback"
     },
     "ja": {
         "app_title": "K-Tube Dictation 🎧",
@@ -200,7 +202,8 @@ TRANSLATIONS = {
         "blank_words": "出題単語",
         "wrong_words": "間違った単語",
         "results_for": "検索結果",
-        "buy_coffee_help": "☕ 開発者にコーヒーを奢る (外部リンク)"
+        "buy_coffee_help": "☕ 開発者にコーヒーを奢る (外部リンク)",
+        "feedback_btn": "📢 フィードバックを送る"
     },
     "zh": {
         "app_title": "K-Tube Dictation 🎧",
@@ -260,7 +263,8 @@ TRANSLATIONS = {
         "blank_words": "出题单词",
         "wrong_words": "错误单词",
         "results_for": "搜索结果",
-        "buy_coffee_help": "☕ 支持开发者 (外部链接)"
+        "buy_coffee_help": "☕ 支持开发者 (外部链接)",
+        "feedback_btn": "📢 发送反馈"
     }
 }
 
