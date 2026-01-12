@@ -117,7 +117,7 @@ defaults = {
     'history': [], 'vocabulary': [], 'selected_video': None, 'transcript_data': None,
     'search_results': [], 'should_autoplay': False, 'replay_count': 0,
     'current_blank_answers': [], 'current_masked_text': "", 'blank_generation_idx': -1,
-    'ui_lang': "ko", 'dict_search_result': None,
+    'ui_lang': "en", 'dict_search_result': None,
     'check_states': {} # Stores check status for each index: {index: {'checked': bool, 'user_input': str, 'result_data': ...}}
 }
 for key, value in defaults.items():
